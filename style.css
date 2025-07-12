@@ -31,6 +31,7 @@ form input {
 }
 .form-div {
   display: flex;
+  padding: 20px;
   flex-direction: column;
   background-color: #1c1d21;
   width: 50%;
@@ -66,4 +67,31 @@ form input {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
+}
+
+/* welcome section */
+.welcome {
+  background-color: #925fe2;
+  height: 100%;
+  width: 50%;
+}
+.welcome h3 {
+  font-size: 3rem;
+  color: whitesmoke;
+  padding: 60px 30px 0;
+}
+.welcome h3 span {
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+.welcome p {
+  font-size: small;
+  color: white;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.welcome img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
